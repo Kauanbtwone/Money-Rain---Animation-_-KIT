@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    background-color: #050505;
+    font-family: 'Courier New', Courier, monospace; /* Substitua pela fonte do seu portfólio */
+    overflow: hidden;
+}
+
+#money-rain-container {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+#money-rain-canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.ui-layer {
+    position: relative;
+    z-index: 10;
+    color: white;
+    padding: 40px;
+    pointer-events: none; /* Permite que o mouse interaja com as notas por trás do texto */
+}
+
+.ui-layer h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+.ui-layer p {
+    color: #888;
+    margin-top: 10px;
+}
