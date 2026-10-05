@@ -88,10 +88,6 @@ If you are an agency owner, SaaS founder, or developer looking for the React/Nex
 - Multi-currency setups (render USD, EUR, and Crypto simultaneously).
 - Commercial redistribution rights for client projects.
 
-> **[Get the React Production Bundle Here](#)** *(Link to your commercial store)*
-
----
-
 ## License & Credits
 
 Distributed under the MIT License. See \`LICENSE\` for more information.
